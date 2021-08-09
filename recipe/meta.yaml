@@ -1,5 +1,5 @@
 {% set name = "nr.stream" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nr.stream-{{ version }}.tar.gz
-  sha256: f5a4b1673f7c7d4f1c42a043d67d950924e60251f59cfb7d0026db242b74cba8
+  sha256: 8b6949d768d2a54ddad5f9efa0f0eabb3c1b4e4a657aa2a0e70c0dc54aea527b
 
 build:
   number: 0
